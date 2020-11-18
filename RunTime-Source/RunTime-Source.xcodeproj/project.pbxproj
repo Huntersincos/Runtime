@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E86A406255A8334004C4989 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E86A405255A8333004C4989 /* CoreGraphics.framework */; };
+		6E86A40C255A8419004C4989 /* NSObject+AddPushMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E86A40B255A8419004C4989 /* NSObject+AddPushMessage.m */; };
 		6E9701232556324F0011ACDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9701222556324F0011ACDD /* AppDelegate.m */; };
 		6E9701262556324F0011ACDD /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9701252556324F0011ACDD /* SceneDelegate.m */; };
 		6E9701292556324F0011ACDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9701282556324F0011ACDD /* ViewController.m */; };
@@ -39,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6E86A405255A8333004C4989 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6E86A40A255A8419004C4989 /* NSObject+AddPushMessage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+AddPushMessage.h"; sourceTree = "<group>"; };
+		6E86A40B255A8419004C4989 /* NSObject+AddPushMessage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AddPushMessage.m"; sourceTree = "<group>"; };
 		6E97011E2556324F0011ACDD /* RunTime-Source.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RunTime-Source.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E9701212556324F0011ACDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6E9701222556324F0011ACDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -70,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E86A406255A8334004C4989 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E86A404255A8333004C4989 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E86A405255A8333004C4989 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6E9701152556324F0011ACDD = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +111,7 @@
 				6E97013C255632530011ACDD /* RunTime-SourceTests */,
 				6E970147255632530011ACDD /* RunTime-SourceUITests */,
 				6E97011F2556324F0011ACDD /* Products */,
+				6E86A404255A8333004C4989 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +140,8 @@
 				6E97018F255646A70011ACDD /* NSString+BaseCategory.m */,
 				6E97019525569E9F0011ACDD /* NSObject+HunterOKV.h */,
 				6E97019625569E9F0011ACDD /* NSObject+HunterOKV.m */,
+				6E86A40A255A8419004C4989 /* NSObject+AddPushMessage.h */,
+				6E86A40B255A8419004C4989 /* NSObject+AddPushMessage.m */,
 				6E97012A2556324F0011ACDD /* Main.storyboard */,
 				6E97012D255632530011ACDD /* Assets.xcassets */,
 				6E97012F255632530011ACDD /* LaunchScreen.storyboard */,
@@ -286,6 +303,7 @@
 				6E9701232556324F0011ACDD /* AppDelegate.m in Sources */,
 				6E97018A25563FCE0011ACDD /* StudentModel.m in Sources */,
 				6E97019725569E9F0011ACDD /* NSObject+HunterOKV.m in Sources */,
+				6E86A40C255A8419004C4989 /* NSObject+AddPushMessage.m in Sources */,
 				6E970134255632530011ACDD /* main.m in Sources */,
 				6E9701262556324F0011ACDD /* SceneDelegate.m in Sources */,
 			);

@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic,copy)NSString *name;
 
-
+-(void)messageSender:(NSString *)msg sex:(NSString*)sex age:(NSString *)age;
 
 @end
 

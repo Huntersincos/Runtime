@@ -26,23 +26,23 @@
     }
     
    // method_exchangeImplementations(stringInitMethod, newH_stringInitMethod);
-    [[self alloc] runTests];
+    //[[self alloc] runTests];
 }
 
-- (void)runTests
-{
-    unsigned int count;
-    Method *methods = class_copyMethodList([self class], &count);
-    for (int i = 0; i < count; i++)
-    {
-        Method method = methods[i];
-        SEL selector = method_getName(method);
-        NSString *name = NSStringFromSelector(selector);
-
-        NSLog(@"方法 名字 ==== %@",name);
-
-    }
-}
+//- (void)runTests
+//{
+//    unsigned int count;
+//    Method *methods = class_copyMethodList([self class], &count);
+//    for (int i = 0; i < count; i++)
+//    {
+//        Method method = methods[i];
+//        SEL selector = method_getName(method);
+//        NSString *name = NSStringFromSelector(selector);
+//
+//        NSLog(@"方法 名字 ==== %@",name);
+//
+//    }
+//}
 
 -(instancetype)Hunter_init{
     

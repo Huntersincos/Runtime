@@ -20,5 +20,101 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C896016E-63EE-4581-BC38-1B57BA0C2843"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RunTime-Source/NSObject+AddPushMessage.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "+getReturnFromInv:withSig:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C896016E-63EE-4581-BC38-1B57BA0C2843 - 9d4267f171bf53ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[NSObject(AddPushMessage) getReturnFromInv:withSig:]"
+                  moduleName = "RunTime-Source"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Transcend/democode/RunTime/Runtime/RunTime-Source/RunTime-Source/NSObject+AddPushMessage.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "367">
+               </Location>
+               <Location
+                  uuid = "C896016E-63EE-4581-BC38-1B57BA0C2843 - 9d4267f171bf53ee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[NSObject(AddPushMessage) getReturnFromInv:withSig:]"
+                  moduleName = "RunTime-Source"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Transcend/democode/RunTime/Runtime/RunTime-Source/RunTime-Source/NSObject+AddPushMessage.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "367">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "91F3C282-5E25-4C20-8B79-73EB0C0D1F20"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RunTime-Source/NSObject+AddPushMessage.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "276"
+            endingLineNumber = "276"
+            landmarkName = "+setInv:withSig:andArgs:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "91F3C282-5E25-4C20-8B79-73EB0C0D1F20 - 46995f3f9ba895b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[NSObject(AddPushMessage) setInv:withSig:andArgs:]"
+                  moduleName = "RunTime-Source"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Transcend/democode/RunTime/Runtime/RunTime-Source/RunTime-Source/NSObject+AddPushMessage.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "276"
+                  endingLineNumber = "276"
+                  offsetFromSymbolStart = "12920">
+               </Location>
+               <Location
+                  uuid = "91F3C282-5E25-4C20-8B79-73EB0C0D1F20 - 46995f3f9ba895b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[NSObject(AddPushMessage) setInv:withSig:andArgs:]"
+                  moduleName = "RunTime-Source"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Volumes/Transcend/democode/RunTime/Runtime/RunTime-Source/RunTime-Source/NSObject+AddPushMessage.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "276"
+                  endingLineNumber = "276"
+                  offsetFromSymbolStart = "12920">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
