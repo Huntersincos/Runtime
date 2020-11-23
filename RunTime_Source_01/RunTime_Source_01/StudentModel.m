@@ -9,4 +9,8 @@
 
 @implementation StudentModel
 
+@dynamic age;
+
+
+
 @end
